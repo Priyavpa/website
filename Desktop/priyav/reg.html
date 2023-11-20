@@ -1,0 +1,70 @@
+<html>
+<head> 
+<title> Application form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="pink">
+<centre>
+<h1>REGISTRATION FORM</h1>
+</centre>
+<form name="myForm" onsubmit="return validateForm();">
+<p>
+<label>NAME:<input type ="text"/></label>
+</p>
+<p>
+<label>Date Of Birth:<input type ="Date"/></label>
+</p>
+<P>
+ <label for="email">Email:</label>
+<input type="email"  id="email" name="email"> 
+</P>
+<P>
+ <label for="password">Password:</label>
+<input type="password"  id="password" name="password"> 
+</P>
+<P>
+ <label for="mob">Mobile No:</label>
+<input type="text"  id="mobnu" name="mobnu"> 
+</P>
+<p>
+<label>PREVIOUS COURSE:</label>
+<select name="previous course" td="degree">
+<option value="BCA">BCA</option>
+<option value="BSC COMPUTER">BSC COMPUTER</option>
+<option value="B.com">B.com</option>
+<option value="BSC PHYSICS">BSC PHYSICS</option>
+<option value="BSC MATHS">BSC MATHS</option>
+</select>
+</p>
+<p>
+<label>COURSE OBTAINED:</label><br>
+<input type="radio" id="MCA" name="PG">
+<label for ="MCA">MCA</label><br>
+<input type="radio" id="MSC COMPUTER" name="PG">
+<label for ="MSC COMPUTER">MSC COMPUTER</label><br>
+<input type="radio" id="M.COM" name="PG">
+<label for ="M.COM">M.COM</label><br>
+<input type="radio" id="MSC PHYSICS" name="PG">
+<label for ="MSC PHYSICS">MSC PHYSICS</label><br>
+<input type="radio" id="MSC MATHS" name="PG">
+<label for ="MSC MATHS">MSC PHYSICS</label><br>
+</P>
+<P>
+<label>skills:</label><br>
+<input type="checkbox">
+<label for ="Typing skill">Typing skill</label>
+<input type="checkbox">
+<label for ="Typing skill">Communication skill</label>
+</p>
+<p>
+<button type="submit"/>submit</button>
+</p>
+<script src="./sscript.js"></script>
+</form>
+</body>
+</html>
+
+
+
+
+
